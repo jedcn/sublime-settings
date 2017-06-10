@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"GitSavvy",
 		"Markdown Extended",
 		"Package Control"
 	]
