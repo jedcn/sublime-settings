@@ -4,7 +4,7 @@
 
 See [here][packages].
 
-[packages]: ./"Package Control.sublime-settings"
+[packages]: ./Package Control.sublime-settings
 
 ## Snippets I Use ##
 
