@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+'use es6';
+
+
+]]></content>
+  <tabTrigger>es6</tabTrigger>
+  <scope>source.js</scope>
+  <description>'use es6'</description>
+</snippet>

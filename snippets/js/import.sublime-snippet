@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+import ${1:symbol} from '${2:package}';
+
+]]></content>
+  <tabTrigger>import</tabTrigger>
+  <scope>source.js</scope>
+  <description>import via es6</description>
+</snippet>

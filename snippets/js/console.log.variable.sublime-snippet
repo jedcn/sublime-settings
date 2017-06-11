@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+console.log('${TM_FILENAME}: ${1:variable}', ${1});
+]]></content>
+  <tabTrigger>l</tabTrigger>
+  <scope>source.js</scope>
+  <description>console.log(variable, value);</description>
+</snippet>

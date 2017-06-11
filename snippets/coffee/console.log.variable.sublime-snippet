@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+console.log '${1}', ${1}
+]]></content>
+  <tabTrigger>l</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>console.log variable, value</description>
+</snippet>

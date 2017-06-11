@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+setState({
+  ${1:properties}
+});
+]]></content>
+  <tabTrigger>setState</tabTrigger>
+  <scope>source.js</scope>
+  <description>setState({});</description>
+</snippet>

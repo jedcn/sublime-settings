@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+constructor() {
+  super(${1});
+  ${0}
+}
+]]></content>
+  <tabTrigger>constructor</tabTrigger>
+  <scope>source.js</scope>
+  <description>constructor</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+React.createClass({
+
+  render() {
+    ${0}
+  }
+
+});
+]]></content>
+  <tabTrigger>react-create-class</tabTrigger>
+  <scope>source.js</scope>
+  <description>React.createClass</description>
+</snippet>

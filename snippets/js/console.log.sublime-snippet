@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+console.log('${TM_FILENAME}: ${1:message}');
+]]></content>
+  <tabTrigger>lm</tabTrigger>
+  <scope>source.js</scope>
+  <description>console.log(message);</description>
+</snippet>
