@@ -1,0 +1,5 @@
+{
+    // If expand_abbreviation is not here.. ctrl+e stops working: move to eol
+    // If balance_outward is not here.. ctrl+d stops working: Delete forward.
+    "disabled_keymap_actions": "balance_outward"
+}
