@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-console.log '${1:message}'
+console.log '${TM_FILENAME}: ${1:message}'
 ]]></content>
   <tabTrigger>lm</tabTrigger>
   <scope>source.coffee</scope>
