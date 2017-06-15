@@ -37,5 +37,28 @@
         ],
         "command": "gs_show_status"
     },
-
+    {
+        "keys": [
+            "super+'",
+            "super+d"
+        ],
+        "command": "gs_diff"
+    },
+    {
+        "keys": [
+            "super+'",
+            "super+s"
+        ],
+        "args": {
+          "in_cached_mode": true
+        },
+        "command": "gs_diff"
+    },
+    {
+        "keys": [
+            "super+'",
+            "super+c"
+        ],
+        "command": "gs_commit"
+    },
 ]
