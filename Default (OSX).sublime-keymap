@@ -23,11 +23,19 @@
             "extend": false
         },
         "command": "move_to"
-     },
-     {
+    },
+    {
         "keys": [
             "super+q"
         ],
         "command": "wrap_lines_plus"
-    }
+    },
+    {
+        "keys": [
+            "super+'",
+            "super+'"
+        ],
+        "command": "gs_show_status"
+    },
+
 ]
