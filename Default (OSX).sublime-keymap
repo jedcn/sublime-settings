@@ -59,6 +59,6 @@
             "super+'",
             "super+c"
         ],
-        "command": "gs_commit"
+        "command": "gs_quick_commit"
     },
 ]
