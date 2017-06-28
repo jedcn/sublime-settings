@@ -1,5 +1,4 @@
 [
-
     {
         "keys": [
             "super+v"
@@ -42,6 +41,10 @@
         ],
         "command": "wrap_lines_plus"
     },
+
+    //
+    // GitSavvy
+    //
     {
         "keys": [
             "super+'",
@@ -79,7 +82,134 @@
         },
         "command": "gs_diff"
     },
+
+    //
+    // GitSavvy: When looking at a diff across many files
+    //
     {
+        "keys": [
+            "ctrl+n"
+        ],
+        "command": "gs_diff_navigate",
+        "args": {
+            "forward": true
+        },
+        "context": [
+            {
+                "key": "setting.command_mode",
+                "operator": "equal",
+                "operand": false
+            },
+            {
+                "key": "setting.git_savvy.diff_view",
+                "operator": "equal",
+                "operand": true
+            }
+         ]
+     },
+     {
+         "keys": [
+              "ctrl+p"
+          ],
+         "command": "gs_diff_navigate",
+         "args": {
+             "forward": false
+         },
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.diff_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     {
+         "keys": [
+             "q"
+         ],
+         "command": "close",
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.diff_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     //
+     // GitSavvy: When looking at the main GitSavvy Status
+     //
+     {
+         "keys": [
+             "q"
+         ],
+         "command": "close",
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.status_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     {
+         "keys": [
+             "ctrl+n"
+         ],
+         "command": "gs_status_navigate_file",
+         "args": {
+             "forward": true
+         },
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.status_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     {
+         "keys": [
+            "ctrl+p"
+         ],
+         "command": "gs_status_navigate_file",
+         "args": {
+             "forward": false
+         },
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.status_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     {
         "keys": [
             "super+'",
             "super+c"
