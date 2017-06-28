@@ -48,9 +48,16 @@
     {
         "keys": [
             "super+'",
-            "'"
+            "s"
         ],
         "command": "gs_show_status"
+    },
+    {
+        "keys": [
+            "super+'",
+            "l"
+        ],
+        "command": "gs_log_graph_current_branch"
     },
     {
         "keys": [
@@ -147,6 +154,27 @@
          ]
      },
      //
+     // GitSavvy: When looking at a graph of commits
+     //
+     {
+         "keys": [
+             "q"
+         ],
+         "command": "close",
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.log_graph_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     //
      // GitSavvy: When looking at the main GitSavvy Status
      //
      {
@@ -212,7 +240,7 @@
      {
         "keys": [
             "super+'",
-            "super+c"
+            "c"
         ],
         "command": "gs_quick_commit"
     },
