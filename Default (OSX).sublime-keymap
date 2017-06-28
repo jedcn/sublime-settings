@@ -45,21 +45,34 @@
     {
         "keys": [
             "super+'",
-            "super+'"
+            "'"
         ],
         "command": "gs_show_status"
     },
     {
         "keys": [
             "super+'",
-            "super+d"
+            "d",
+            "d"
         ],
         "command": "gs_diff"
     },
     {
         "keys": [
             "super+'",
-            "super+s"
+            "d",
+            "c"
+        ],
+        "args": {
+          "in_cached_mode": true
+        },
+        "command": "gs_diff"
+    },
+    {
+        "keys": [
+            "super+'",
+            "d",
+            "s"
         ],
         "args": {
           "in_cached_mode": true
