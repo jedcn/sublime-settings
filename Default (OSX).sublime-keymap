@@ -1,4 +1,38 @@
 [
+    //
+    // Movement and Selection
+    //
+
+    // Make it so that adding "shift" while using ctrl+p or ctrl+n
+    // begins/extends a selection.
+    {
+        "keys": [
+            "ctrl+shift+p"
+        ],
+        "args": {
+            "by": "lines",
+            "forward": false,
+            "extend": true
+        },
+        "command": "move"
+    },
+    {
+        "keys": [
+            "ctrl+shift+n"
+        ],
+        "args": {
+            "by": "lines",
+            "forward": true,
+            "extend": true
+        },
+        "command": "move"
+    },
+
+    //
+    // Pasting and Indentation
+    //
+
+    // See also: http://wesbos.com/5-sublime-text-tweaks-tips/
     {
         "keys": [
             "super+v"
@@ -11,6 +45,18 @@
         ],
         "command": "paste"
     },
+
+    // Select some text, press this and it re-indents
+    {
+        "keys": [
+            "super+shift+r"
+        ],
+        "command": "reindent"
+    },
+
+    //
+    // Emmet
+    //
     {
         "keys": [
             "ctrl+m"
