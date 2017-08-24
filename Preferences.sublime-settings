@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -9,7 +9,7 @@
 		"CVS",
 		"node_modules"
 	],
-	"font_size": 19,
+	"font_size": 20,
 	"ignored_packages":
 	[
 		"Vintage"
