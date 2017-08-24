@@ -8,6 +8,7 @@
 		"AdvancedNewFile",
 		"Babel",
 		"Better CoffeeScript",
+		"Cucumber",
 		"Emmet",
 		"Filter Lines",
 		"GitSavvy",
@@ -18,6 +19,7 @@
 		"Select Quoted",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"Theme - Spacegray",
 		"Wrap Plus"
 	]
 }
