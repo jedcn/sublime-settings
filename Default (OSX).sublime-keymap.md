@@ -78,37 +78,6 @@ selection.
     },
 ```
 
-## Emmet
-
-I thought this would be cool, but I'm not been using it. Maybe remove?
-
-```
-    {
-        "keys": [
-            "ctrl+m"
-        ],
-        "args": {
-            "action": "expand_abbreviation"
-        },
-        "command": "run_emmet_action",
-        "context": [
-            {
-                "key": "emmet_action_enabled.expand_abbreviation"
-            }
-        ]
-    },
-    {
-        "keys": [
-            "ctrl+e"
-        ],
-        "args": {
-            "to": "eol",
-            "extend": false
-        },
-        "command": "move_to"
-    },
-```
-
 ## Wrapping Lines
 
 ```

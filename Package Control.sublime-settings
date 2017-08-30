@@ -5,11 +5,9 @@
 	],
 	"installed_packages":
 	[
-		"AdvancedNewFile",
 		"Babel",
 		"Better CoffeeScript",
 		"Cucumber",
-		"Emmet",
 		"Filter Lines",
 		"GitSavvy",
 		"JsPrettier",
