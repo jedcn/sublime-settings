@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+ABSOLUTE_PARENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$(basename "${BASH_SOURCE[0]}")"
+META_PROJECT_DIR=$ABSOLUTE_PARENT_DIR/.meta-project
+
+function extract {
+  pushd $META_PROJECT_DIR
+  npm run extract-config-from-markdown
+  popd
+}
+
+function update {
+  pushd $META_PROJECT_DIR
+  npm run update-markdown-from-config
+  popd
+}

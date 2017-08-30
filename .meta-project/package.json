@@ -1,0 +1,23 @@
+{
+  "name": "sublime-settings",
+  "version": "1.0.0",
+  "description": "Jed's Sublime Settings",
+  "main": "index.js",
+  "scripts": {
+    "update-markdown-from-config": "./bin/update-markdown-from-config",
+    "extract-config-from-markdown": "./bin/extract-config-from-markdown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedcn/sublime-settings.git"
+  },
+  "author": "jedcn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jedcn/sublime-settings/issues"
+  },
+  "homepage": "https://github.com/jedcn/sublime-settings#readme",
+  "dependencies": {
+    "there-and-back-again": "^0.1.1"
+  }
+}

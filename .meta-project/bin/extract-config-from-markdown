@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function extract_config_from_markdown {
+  config_file="$1"
+  markdown_file="${config_file}.md"
+  extract=".meta-project/node_modules/there-and-back-again/bin/extract-config-from-markdown"
+  $extract --markdown-file "$markdown_file" --config-file "$config_file"
+}
+
+pushd ../
+extract_config_from_markdown Default\ \(OSX\).sublime-keymap
+popd
