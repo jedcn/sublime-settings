@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function update_markdown_from_config {
+  config_file="$1"
+  markdown_file="${config_file}.md"
+  update=".meta-project/node_modules/there-and-back-again/bin/update-markdown-from-config"
+  $update --markdown-file "$markdown_file" --config-file "$config_file" --force true
+}
+
+pushd ../
+update_markdown_from_config Default\ \(OSX\).sublime-keymap
+popd
