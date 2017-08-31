@@ -208,7 +208,49 @@
      },
      {
          "keys": [
+             "down"
+         ],
+         "command": "gs_status_navigate_file",
+         "args": {
+             "forward": true
+         },
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.status_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     {
+         "keys": [
             "ctrl+p"
+         ],
+         "command": "gs_status_navigate_file",
+         "args": {
+             "forward": false
+         },
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.status_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     {
+         "keys": [
+            "up"
          ],
          "command": "gs_status_navigate_file",
          "args": {

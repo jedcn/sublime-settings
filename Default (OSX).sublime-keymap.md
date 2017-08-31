@@ -291,7 +291,8 @@ Press `q` to leave immediately.
      },
 ```
 
-Use `CTRL+P` or `CTRL+N` you navigate between files within the status.
+Use `CTRL+P` or pressing the up arrow or `CTRL+N` or pressing the down arrow
+navigates between files within the status.
 
 ```
      {
@@ -317,7 +318,49 @@ Use `CTRL+P` or `CTRL+N` you navigate between files within the status.
      },
      {
          "keys": [
+             "down"
+         ],
+         "command": "gs_status_navigate_file",
+         "args": {
+             "forward": true
+         },
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.status_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     {
+         "keys": [
             "ctrl+p"
+         ],
+         "command": "gs_status_navigate_file",
+         "args": {
+             "forward": false
+         },
+         "context": [
+             {
+                 "key": "setting.command_mode",
+                 "operator": "equal",
+                 "operand": false
+             },
+             {
+                 "key": "setting.git_savvy.status_view",
+                 "operator": "equal",
+                 "operand": true
+             }
+         ]
+     },
+     {
+         "keys": [
+            "up"
          ],
          "command": "gs_status_navigate_file",
          "args": {
