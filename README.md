@@ -12,6 +12,12 @@ See [here][keybindings].
 
 [keybindings]: ./Default%20(OSX).sublime-keymap.md
 
+## Preferences I have ##
+
+See [here][preferences].
+
+[preferences]: ./Preferences.sublime-settings.md
+
 ## Snippets I Use ##
 
 See [here][snippets].

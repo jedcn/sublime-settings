@@ -9,4 +9,5 @@ function update_markdown_from_config {
 
 pushd ../
 update_markdown_from_config Default\ \(OSX\).sublime-keymap
+update_markdown_from_config Preferences.sublime-settings
 popd

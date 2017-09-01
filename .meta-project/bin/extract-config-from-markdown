@@ -9,4 +9,5 @@ function extract_config_from_markdown {
 
 pushd ../
 extract_config_from_markdown Default\ \(OSX\).sublime-keymap
+extract_config_from_markdown Preferences.sublime-settings
 popd
