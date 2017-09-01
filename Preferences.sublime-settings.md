@@ -97,6 +97,12 @@ While Tristan's name has come up-- he's got some good stuff:
 
 * http://thume.ca/2016/12/03/disassembling-sublime-text/
 
+Ahh-- looks like much of this stuff comes from [these Materialize suggestions][materialize-suggestion].
+
+[materialize-suggestion]: https://github.com/saadq/Materialize/blob/master/messages/install.txt#L42-L52
+
+
+
 ```
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,

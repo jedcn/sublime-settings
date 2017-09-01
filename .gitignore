@@ -1,7 +1,10 @@
+# Standard for Sublime Text 3
 Package Control.cache
 Package Control.last-run
 Package Control.merged-ca-bundle
 Package Control.user-ca-bundle
 oscrypto-ca-bundle.crt
+Theme-Switcher.cache
 
+# Things that this project invented
 .meta-project/node_modules

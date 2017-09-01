@@ -9,10 +9,15 @@
 		"Better CoffeeScript",
 		"Cucumber",
 		"Filter Lines",
+		"GitGutter",
 		"GitSavvy",
 		"JsPrettier",
 		"MarkdownEditing",
+		"Materialize",
 		"Occur",
+		"Oceanic Next Color Scheme",
+		"One Dark Color Scheme",
+		"One Half Color Schemes",
 		"orgmode",
 		"Origami",
 		"Package Control",
@@ -22,6 +27,10 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"Theme - Spacegray",
-		"Wrap Plus"
+		"Themes Menu Switcher",
+		"UnicodeCompletion",
+		"WordCount",
+		"Wrap Plus",
+		"Zen Tabs"
 	]
 }
