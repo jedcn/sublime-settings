@@ -15,7 +15,7 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 26,
+	"font_size": 22,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -31,7 +31,7 @@
 	"spacegray_fileicons": true,
 	"spacegray_sidebar_font_large": true,
 	"tab_size": 2,
-	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"theme": "Default.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }
