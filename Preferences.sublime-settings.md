@@ -22,6 +22,19 @@ Making them bold makes it easier to differentiate.
 	"bold_folder_labels": true,
 ```
 
+## Easily identify tabs for files with changes
+
+This works different in different themes. It's helpful in the default theme,
+minimally, and may be helpful in other themes.
+
+```
+	"highlight_modified_tabs": true,
+```
+
+If you are using Sublime Linter and you switch color schemes the linter plugin will analyze your scheme and likely create a modified copy of it.
+
+See here: http://www.sublimelinter.com/en/latest/usage.html#choosing-color-schemes
+
 ```
 	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 ```
@@ -122,10 +135,12 @@ I like 2 *space* indent.
 
 ## Theme
 
-I dunno what this is. I thought I was doing Spacegray.
+In Sublime, a "theme" is a thing that impactsdasda the sidebar, your tabs, and the window that pops up at the bottom when finding and replacing, for example.
+
+This is different from a "color_scheme."
 
 ```
-	"theme": "Default.sublime-theme",
+	"theme": "Material Spacegray Light.sublime-theme",
 ```
 
 ## No Trailing Space
