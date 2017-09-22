@@ -1,5 +1,5 @@
 {
-	"always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": false,
 	"bold_folder_labels": true,
 	"highlight_modified_tabs": true,
 	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
@@ -28,6 +28,8 @@
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
+	"material_theme_accent_indigo": true,
+	"material_theme_tree_headings": true,
 	"overlay_scroll_bars": "enabled",
 	"spacegray_fileicons": true,
 	"spacegray_sidebar_font_large": true,
