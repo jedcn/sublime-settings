@@ -5,12 +5,15 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
+		"ayu",
 		"Babel",
 		"Better CoffeeScript",
 		"Cucumber",
 		"Filter Lines",
 		"GitGutter",
 		"GitSavvy",
+		"GotoWindow",
 		"MarkdownEditing",
 		"Materialize",
 		"Materialize-Appbar",
