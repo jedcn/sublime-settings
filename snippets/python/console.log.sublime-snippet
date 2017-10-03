@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+print('${TM_FILENAME}: ${1:message}')
+]]></content>
+  <tabTrigger>lm</tabTrigger>
+  <scope>source.python</scope>
+  <description>print('message')</description>
+</snippet>
