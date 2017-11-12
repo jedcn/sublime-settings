@@ -6,9 +6,11 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AutomaticPackageReloader",
 		"ayu",
 		"Babel",
 		"Better CoffeeScript",
+		"Clickable URLs",
 		"Cucumber",
 		"Filter Lines",
 		"GitGutter",
@@ -21,9 +23,9 @@
 		"Oceanic Next Color Scheme",
 		"One Dark Color Scheme",
 		"One Half Color Schemes",
-		"Origami",
 		"Package Control",
 		"Path Tools",
+		"PlainTasks",
 		"Pretty JSON",
 		"Select Quoted",
 		"SublimeLinter",
@@ -31,7 +33,6 @@
 		"Theme - Spacegray",
 		"Themes Menu Switcher",
 		"UnicodeCompletion",
-		"WordCount",
 		"Wrap Plus",
 		"Zen Tabs"
 	]
